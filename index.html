@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<!-- Title -->
+		<title>Cowmosk</title>
+		<!-- Content Type -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<!-- CSS -->
+		<style type="text/css">
+			body
+			{
+				background-color: #000000;
+				margin: 0;
+				padding: 0;
+				margin-top: 200px;
+			}
+			canvas
+			{
+				display: block;
+				margin: 0 auto;
+				position: relative;
+			}
+			a img
+			{
+				position: fixed; 
+				top: 0; 
+				right: 0; 
+				border: 0; 
+				z-index: 999;
+			}
+		</style>
+		<!-- Main -->
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+		(function()
+		 {
+			if(false)
+			{
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-3042007-2']);
+				_gaq.push(['_trackPageview']);
+
+				(function() 
+				{
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			}
+		 })();
+		</script>
+	</head>
+	<body>
+		<!-- Fork me on GitHub Ribbon -->
+		<a href="http://github.com/icebreaker/cowmosk" target="_blank">
+			<img src="data/ribbon.png" alt="Fork me on GitHub" title="Fork me on GitHub">
+		</a>
+		<!-- Canvas -->
+		<canvas id="canvas" width="800" height="200"></canvas>
+	</body>
+</html>
