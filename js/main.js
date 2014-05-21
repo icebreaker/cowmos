@@ -263,20 +263,21 @@ function loop()
   requestAnimationFrame(loop);
 }
 
-function main()
+window.onload = function()
 {
 	ctx = document.getElementById('canvas').getContext('2d');
 	ctx.blockmageSmoothingEnabled = false;
 	ctx.mozImageSmoothingEnabled = false;
 	ctx.webkitImageSmoothingEnabled = false;
 
-  loop();
-}
+  ctx.save();
+	ctx.font = 'italic 40pt Arial';
+  ctx.fillStyle = "#FFFFFF";
+  ctx.fillText("Please wait ...", 200, 100);
+  ctx.restore();	
 
-window.onload = function()
-{
   image.src = 'data/atlas.png';
-  image.onload = main;
+  image.onload = loop;
 
   audio.addEventListener('loadedmetadata', function()
   {
