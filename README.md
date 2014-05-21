@@ -7,7 +7,8 @@ NO SHADERS WERE HARMED DURING THE MAKING OF THIS PRODUCTION.**
 
 Credits
 -------
-Music: `We Dream of Booty! :D` by Halcyonic Falcon X via [openly.common.cc](http://openly.common.cc).
+Music: `We Dream of Booty! :D` by Halcyonic Falcon X via
+[open.commonly.cc](http://open.commonly.cc).
 
 Contribute
 ----------
