@@ -136,7 +136,7 @@ function fx5(text, x, y, a, color)
 function fx6()
 {
   if(dy > 0 && dy < 3)
-    fx5("H a p p y", xx, 110, "#0000BB");
+    fx5("H a p p y", xx, 110, 5, "#0000BB");
 
   if(dy > 1 && dy < 3)
     fx5("B i r t h d a y", xx + 250, 110, -5, "#000000");
