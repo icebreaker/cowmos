@@ -1,6 +1,6 @@
 Cowmos
 ======
-Cowmos is `birthro` for Miss Valeria :).
+Cowmos is a `birthro` for Valeria :).
 
 **WARNING: THIS IS NOT PRODUCTION LEVEL CODE, BE WARNED.
 NO SHADERS WERE HARMED DURING THE MAKING OF THIS PRODUCTION.**
