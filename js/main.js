@@ -285,10 +285,19 @@ window.onload = function()
     this.play();  
   });
 
+  ctx.canvas.onmousedown = function()
+  {
+    if(!audio.ended || audio.currentTime == 0)
+    {
+      audio.loop = true;
+      audio.play();
+    }
+  };
+
   if(!!audio.canPlayType('audio/ogg'))
     audio.src = 'data/song.ogg';
   else if(!!audio.canPlayType('audio/mp3'))
     audio.src = 'data/song.mp3';
-
+  
 };
 })(window);
